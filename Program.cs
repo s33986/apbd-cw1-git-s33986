@@ -5,6 +5,8 @@ public class Program
     public static void Main()
     {
         countToTen();
+        
+        int z = power(2, 3);
     }
 
 
