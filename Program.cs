@@ -67,6 +67,14 @@ public class Program
 
     static int CalculateMin(int[] values)
     {
-        return 0;
+        int min = values[0];
+        for (int i = 0; i < values.Length; i++)
+        {
+            if (values[i] < min)
+            {
+                min = values[i];
+            }
+        }
+        return min;
     }
 }
