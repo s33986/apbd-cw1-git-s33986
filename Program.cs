@@ -7,8 +7,11 @@ public class Program
         countToTen();
         
         int z = power(2, 3);
-        
-        printNTimes(z, "apbd");
+
+        if (z%2 ==0)
+        {
+            printNTimes(z, "apbd");
+        }
     }
 
 
