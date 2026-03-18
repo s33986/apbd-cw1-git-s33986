@@ -10,7 +10,7 @@ public class Program
 
         if (z%2 ==0)
         {
-            printNTimes(z, "apbd");
+            printNTimes(z, "APBD");
         }
     }
 
