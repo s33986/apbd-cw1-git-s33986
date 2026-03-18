@@ -37,4 +37,15 @@ public class Program
         }
         return result;
     }
+
+    static double calculateAverage(int[] values)
+    {
+        int sum = 0;
+        for (int i = 0; i < values.Length; i++)
+        {
+            sum += values[i];
+        }
+        double average = sum / values.Length;
+        return average;
+    }
 }
