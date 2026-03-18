@@ -51,4 +51,10 @@ public class Program
         double average = sum / values.Length;
         return average;
     }
+
+    static int CalculateMax(int[] values)
+    {
+        int max = values.Max();
+        return max;
+    }
 }
