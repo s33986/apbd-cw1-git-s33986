@@ -15,4 +15,12 @@ public class Program
             Console.WriteLine(i);
         }
     }
+
+    static void printNTimes(int n, string s)
+    {
+        for (int i = 0; i < n; i++)
+        {
+            Console.WriteLine(s);
+        }
+    }
 }
